@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 header {
   background-color: black;
   margin-top: 50px;
@@ -531,32 +532,33 @@ header .menu-login .menu .menu-li .contact-ul li a:hover {
   color: #ffc311;
 }
 
-footer {
+.last {
+  font-family: "Poppins", sans-serif;
   padding: 3rem 10rem;
   margin-top: 10rem;
-  background-color: black;
+  background-color: #111111;
 }
-footer .begin h4 {
+.last .begin h4 {
   font-weight: 900;
   margin-bottom: 20px;
 }
-footer .begin h4 .white {
+.last .begin h4 .white {
   color: white;
 }
-footer .begin h4 .yellow {
+.last .begin h4 .yellow {
   color: #ffc311;
 }
-footer .begin p {
+.last .begin p {
   color: white;
   font-size: 15px;
   margin-bottom: 40px;
 }
-footer .begin .bottom-l {
+.last .begin .bottom-l {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-footer .begin .bottom-l li a {
+.last .begin .bottom-l li a {
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -566,7 +568,7 @@ footer .begin .bottom-l li a {
   position: relative;
   padding-left: 20px;
 }
-footer .begin .bottom-l li a::before {
+.last .begin .bottom-l li a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -577,13 +579,13 @@ footer .begin .bottom-l li a::before {
   border-bottom: 5px solid transparent;
   border-left: 5px solid #ffc311;
 }
-footer .begin .bottom-l li a:hover {
+.last .begin .bottom-l li a:hover {
   color: #ffc311;
 }
-footer .begin .bottom-r {
+.last .begin .bottom-r {
   list-style: none;
 }
-footer .begin .bottom-r li a {
+.last .begin .bottom-r li a {
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -593,7 +595,7 @@ footer .begin .bottom-r li a {
   position: relative;
   padding-left: 20px;
 }
-footer .begin .bottom-r li a::before {
+.last .begin .bottom-r li a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -604,55 +606,55 @@ footer .begin .bottom-r li a::before {
   border-bottom: 5px solid transparent;
   border-left: 5px solid #ffc311;
 }
-footer .begin .bottom-r li a:hover {
+.last .begin .bottom-r li a:hover {
   color: #ffc311;
 }
-footer .mid h4 {
+.last .mid h4 {
   font-weight: 900;
   margin-bottom: 20px;
 }
-footer .mid h4 .white {
+.last .mid h4 .white {
   color: white;
 }
-footer .mid h4 .yellow {
+.last .mid h4 .yellow {
   color: #ffc311;
 }
-footer .mid img {
+.last .mid img {
   width: 100%;
   height: 100%;
 }
-footer .mid .text .title {
+.last .mid .text .title {
   text-decoration: none;
   color: white;
   font-weight: 500;
   font-size: 15px;
   transition: 0.3s ease-in-out;
 }
-footer .mid .text .title:hover {
+.last .mid .text .title:hover {
   color: #ffc311;
 }
-footer .mid .text p {
+.last .mid .text p {
   font-size: 12px;
   color: white;
 }
-footer .mid .text p i {
+.last .mid .text p i {
   color: #ffc311;
   margin: 10px 7px 0 5px;
 }
-footer .end h4 {
+.last .end h4 {
   font-weight: 900;
   margin-bottom: 20px;
 }
-footer .end h4 .white {
+.last .end h4 .white {
   color: white;
 }
-footer .end h4 .yellow {
+.last .end h4 .yellow {
   color: #ffc311;
 }
-footer .end a {
+.last .end a {
   text-decoration: none;
   color: white;
-  font-size: 14 px;
+  font-size: 14px;
   display: inline-block;
   padding: 15px 20px;
   border: 1px solid rgba(128, 128, 128, 0.522);
@@ -660,10 +662,49 @@ footer .end a {
   text-align: left;
   transition: 0.3s ease-in-out;
 }
-footer .end a:hover {
+.last .end a:hover {
   background-color: #ffc311;
 }
-footer .end a i {
+.last .end a i {
   font-size: 25px;
   margin-right: 15px;
+}
+
+footer {
+  padding: 2rem 10rem;
+  background-color: black;
+}
+footer .left {
+  width: 40%;
+  align-items: baseline;
+}
+footer .left .logo img {
+  width: 120px;
+  height: auto;
+}
+footer .left .text {
+  color: white;
+  font-size: 13px;
+  margin-left: 20px;
+}
+footer .links {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .links li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 5px;
+  font-size: 12px;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+}
+footer .links li a:hover {
+  color: #ffc311;
 }/*# sourceMappingURL=style.css.map */
